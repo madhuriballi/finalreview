@@ -1,0 +1,202 @@
+madhuri@DESKTOP-D45N6PK:~$
+madhuri@DESKTOP-D45N6PK:~$ echo $SHELL
+/bin/bash
+madhuri@DESKTOP-D45N6PK:~$ $ #!/bin/bash
+$: command not found
+madhuri@DESKTOP-D45N6PK:~$ echo hello world
+hello world
+madhuri@DESKTOP-D45N6PK:~$ nano
+madhuri@DESKTOP-D45N6PK:~$ cat file.sh
+hi welcome to shell scripting
+madhuri@DESKTOP-D45N6PK:~$ ./file.sh
+-bash: ./file.sh: Permission denied
+madhuri@DESKTOP-D45N6PK:~$ chmod 774 file.sh
+madhuri@DESKTOP-D45N6PK:~$ ./file.sh
+./file.sh: line 1: hi: command not found
+madhuri@DESKTOP-D45N6PK:~$ nano file.sh
+madhuri@DESKTOP-D45N6PK:~$ ./file.sh
+./file.sh: line 3: hi: command not found
+docker   file.sh  folder.txt  hushmum  initialhashmum  m.txt    names.sh  parameter.sh  read.sh
+elif.sh  folder   group.txt   if.sh    loop            madhuri  outlook   python        shell.sh
+madhuri@DESKTOP-D45N6PK:~$ chmod +x file.sh
+madhuri@DESKTOP-D45N6PK:~$ ./file.sh
+./file.sh: line 3: hi: command not found
+docker   file.sh  folder.txt  hushmum  initialhashmum  m.txt    names.sh  parameter.sh  read.sh
+elif.sh  folder   group.txt   if.sh    loop            madhuri  outlook   python        shell.sh
+madhuri@DESKTOP-D45N6PK:~$ nano file.sh
+madhuri@DESKTOP-D45N6PK:~$ ./file.sh
+./file.sh: line 3: hi: command not found
+docker   file.sh  folder.txt  hushmum  initialhashmum  m.txt    names.sh  parameter.sh  read.sh
+elif.sh  folder   group.txt   if.sh    loop            madhuri  outlook   python        shell.sh
+total 0
+2251799814052587 drwxr-xr-x 1 madhuri madhuri 512 Jan 20 10:53 docker
+3659174697656329 -rwxrwxr-- 1 madhuri madhuri 233 Jan  8 10:52 elif.sh
+3096224744175707 -rwxrwxr-x 1 madhuri madhuri  42 Jan 20 12:20 file.sh
+2533274790709836 drwxr-xr-x 1 madhuri madhuri 512 Jan  7 17:12 folder
+1970324837342036 -rw-r--r-- 1 madhuri madhuri  28 Jan 20 10:14 folder.txt
+2251799814127786 -rw-r--r-- 1 madhuri madhuri   0 Jan 20 10:22 group.txt
+1688849860628666 drwxr-xr-x 1 madhuri madhuri 512 Jan  5 16:44 hushmum
+1970324837392392 -rwxrwxr-- 1 madhuri madhuri 124 Jan  8 10:44 if.sh
+7036874418131041 drwxrwxr-x 1 madhuri madhuri 512 Jan  5 16:38 initialhashmum
+5348024557816388 drwxr-xr-x 1 madhuri madhuri 512 Jan  7 17:01 loop
+4222124650973751 -rwxrwxr-- 1 madhuri madhuri  31 Jan  7 17:34 m.txt
+ 281474977028877 drwxr-xr-x 1 madhuri madhuri 512 Dec 29 21:14 madhuri
+7318349394894832 -rwxrwxr-- 1 madhuri madhuri 119 Jan  8 10:29 names.sh
+ 844424930445897 drwxr-xr-x 1 madhuri madhuri 512 Jan  7 18:12 outlook
+5348024557920263 -rwxrwxr-- 1 madhuri madhuri 248 Jan  8 10:40 parameter.sh
+2251799814052696 drwxr-xr-x 1 madhuri madhuri 512 Jan 20 10:23 python
+7318349394520887 -rwxrwxr-- 1 madhuri madhuri 125 Jan  8 10:32 read.sh
+1688849860569012 -rwxr-xr-x 1 madhuri madhuri  30 Jan  8 10:15 shell.sh
+madhuri@DESKTOP-D45N6PK:~$ nano
+madhuri@DESKTOP-D45N6PK:~$ chmod 774 script.sh
+madhuri@DESKTOP-D45N6PK:~$ ./script.sh
+hi
+docker   file.sh  folder.txt  hushmum  initialhashmum  m.txt    names.sh  parameter.sh  read.sh    shell.sh
+elif.sh  folder   group.txt   if.sh    loop            madhuri  outlook   python        script.sh
+list
+./script.sh: line 5: madhuri: command not found
+./script.sh: line 6: nellore: command not found
+,
+madhuri@DESKTOP-D45N6PK:~$ nano script.sh
+madhuri@DESKTOP-D45N6PK:~$ ./script.sh
+hi
+docker   file.sh  folder.txt  hushmum  initialhashmum  m.txt    names.sh  parameter.sh  read.sh    shell.sh
+elif.sh  folder   group.txt   if.sh    loop            madhuri  outlook   python        script.sh
+list
+madhuri,nellore
+madhuri@DESKTOP-D45N6PK:~$ nano
+madhuri@DESKTOP-D45N6PK:~$ chmod 774 state.sh
+madhuri@DESKTOP-D45N6PK:~$ ./state.sh
+what is ur name :
+madhuri
+what is ur loc :
+nellore
+what is ur state :
+andhrapradesh
+madhuri@DESKTOP-D45N6PK:~$ nano
+madhuri@DESKTOP-D45N6PK:~$ chmod 774 .bash_aliases.sh
+madhuri@DESKTOP-D45N6PK:~$ ./.bash_aliases.sh
+./.bash_aliases.sh: line 1: alias: ll: not found
+./.bash_aliases.sh: line 1: alias: =: not found
+./.bash_aliases.sh: line 1: alias: ls -l: not found
+./.bash_aliases.sh: line 2: alias: la: not found
+./.bash_aliases.sh: line 2: alias: =: not found
+./.bash_aliases.sh: line 2: alias: ls -a: not found
+madhuri@DESKTOP-D45N6PK:~$ dir
+docker   file.sh  folder.txt  hushmum  initialhashmum  m.txt    names.sh  parameter.sh  read.sh    shell.sh
+elif.sh  folder   group.txt   if.sh    loop            madhuri  outlook   python        script.sh  state.sh
+madhuri@DESKTOP-D45N6PK:~$ ./.bash_aliases.sh dir
+./.bash_aliases.sh: line 1: alias: ll: not found
+./.bash_aliases.sh: line 1: alias: =: not found
+./.bash_aliases.sh: line 1: alias: ls -l: not found
+./.bash_aliases.sh: line 2: alias: la: not found
+./.bash_aliases.sh: line 2: alias: =: not found
+./.bash_aliases.sh: line 2: alias: ls -a: not found
+madhuri@DESKTOP-D45N6PK:~$ ls -h
+docker   file.sh  folder.txt  hushmum  initialhashmum  m.txt    names.sh  parameter.sh  read.sh    shell.sh
+elif.sh  folder   group.txt   if.sh    loop            madhuri  outlook   python        script.sh  state.sh
+madhuri@DESKTOP-D45N6PK:~$ ls -i
+ 2251799814052587 docker       2251799814127786 group.txt        4222124650973751 m.txt          2251799814052696 python
+ 3659174697656329 elif.sh      1688849860628666 hushmum           281474977028877 madhuri        7318349394520887 read.sh
+ 3096224744175707 file.sh      1970324837392392 if.sh            7318349394894832 names.sh       6473924464665266 script.sh
+ 2533274790709836 folder       7036874418131041 initialhashmum    844424930445897 outlook        1688849860569012 shell.sh
+ 1970324837342036 folder.txt   5348024557816388 loop             5348024557920263 parameter.sh  19984723346552115 state.sh
+madhuri@DESKTOP-D45N6PK:~$ nano
+madhuri@DESKTOP-D45N6PK:~$ chmod 774 parameters.sh
+madhuri@DESKTOP-D45N6PK:~$ ./parameters.sh
+the script title is ./parameters.sh
+1st arg is
+2nd arg is
+3rd arg is
+/$ 1333 is the pid of the script
+/# the total no of parameters in the script 0
+madhuri@DESKTOP-D45N6PK:~$ ./parameters.sh 2 3 4
+the script title is ./parameters.sh
+1st arg is 2
+2nd arg is 3
+3rd arg is 4
+/$ 1334 is the pid of the script
+/# the total no of parameters in the script 3
+madhuri@DESKTOP-D45N6PK:~$ nano
+madhuri@DESKTOP-D45N6PK:~$ chmod 774 ifelse.sh
+madhuri@DESKTOP-D45N6PK:~$ ./ifelse.sh
+enter a pet animal
+rabbit
+i like rabbit
+madhuri@DESKTOP-D45N6PK:~$ ./ifelse.sh
+enter a pet animal
+cat
+i love cats
+madhuri@DESKTOP-D45N6PK:~$ nano
+madhuri@DESKTOP-D45N6PK:~$ nano fruit.sh
+madhuri@DESKTOP-D45N6PK:~$ chmod 774 fruit.sh
+madhuri@DESKTOP-D45N6PK:~$ ./fruit.sh
+enter a fruit name
+kiwi
+i like kiwi
+madhuri@DESKTOP-D45N6PK:~$ ./fruit.sh
+enter a fruit name
+banana
+i also love this banana
+madhuri@DESKTOP-D45N6PK:~$ nano fruit.sh
+madhuri@DESKTOP-D45N6PK:~$ nano
+madhuri@DESKTOP-D45N6PK:~$ chmod 774 for.sh
+madhuri@DESKTOP-D45N6PK:~$ ./for.sh
+enter some no
+24
+welcome 1 time 24
+enter some no
+75
+welcome 2 time 75
+enter some no
+67
+welcome 3 time 67
+enter some no
+08
+welcome 4 time 08
+madhuri@DESKTOP-D45N6PK:~$ nano
+madhuri@DESKTOP-D45N6PK:~$ chmod while.sh
+chmod: missing operand after ‘while.sh’
+Try 'chmod --help' for more information.
+madhuri@DESKTOP-D45N6PK:~$ chmod 774 while.sh
+madhuri@DESKTOP-D45N6PK:~$ nano while.sh
+madhuri@DESKTOP-D45N6PK:~$ ./while.sh
+while loop
+./while.sh: line 3: no: command not found
+./while.sh: line 4: 5: No such file or directory
+madhuri@DESKTOP-D45N6PK:~$ nano while.sh
+madhuri@DESKTOP-D45N6PK:~$ ./while.sh
+while loop
+./while.sh: line 3: no: command not found
+./while.sh: line 4: 5: No such file or directory
+madhuri@DESKTOP-D45N6PK:~$ nano while.sh
+madhuri@DESKTOP-D45N6PK:~$ ./while.sh
+while loop
+./while.sh: line 3: no: command not found
+no is
+no is 1
+no is 2
+no is 3
+no is 4
+madhuri@DESKTOP-D45N6PK:~$ nano while.sh
+madhuri@DESKTOP-D45N6PK:~$ ./while.sh
+while loop
+no is 1
+no is 2
+no is 3
+no is 4
+madhuri@DESKTOP-D45N6PK:~$
+madhuri@DESKTOP-D45N6PK:~$ nano
+madhuri@DESKTOP-D45N6PK:~$ chmod 774 fun.sh
+madhuri@DESKTOP-D45N6PK:~$ ./fun.sh
+function with arguments demo
+hi,
+hello,
+madhuri@DESKTOP-D45N6PK:~$ ./fun.sh madhuri rivi
+function with arguments demo
+hi, madhuri
+hello, rivi
+
+
+
+
